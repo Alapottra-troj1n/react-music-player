@@ -8,7 +8,7 @@ import {
 
 const Player = () => {
   return (
-    <div>
+    <div className="player">
       <div className="time-control">
         <p>Start Time</p>
         <input type="range" name="" id="" />
