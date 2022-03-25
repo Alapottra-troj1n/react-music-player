@@ -1,16 +1,18 @@
 .library{
+    h2{
+        color: rgb(49, 49, 49);
+    }
     position: fixed;
     top: 0;
     left: 0;
     width: 30rem;
     height: 100%;
-    background-color: white;
-    box-shadow: 2px 2px 50px gray;
+    background-color: rgb(238, 238, 238);
     overflow-y: scroll;
     h2{
         padding:2rem;
     }
-    transform: translateX(-100%);
+    transform: translateX(-150%);
     transition: all 300ms ease;
 
 }
@@ -31,11 +33,12 @@
     padding-left: 2rem;
     h3{
         font-size: 1.5rem;
+        color:rgb(47, 47, 47);
     }
     h4{
         font-size: 1rem;
         font-weight: 400;
-        color: rgb(83, 79, 79);
+        color: rgb(29, 29, 29);
     }
 }
 *{
@@ -56,7 +59,7 @@
 }
 
 .selected{
-    background-color: #b9fbc0;
+    background-color: rgb(54, 235, 114);
 }
 .library-active{
     transform: translateX(0%);

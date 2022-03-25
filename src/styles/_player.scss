@@ -8,11 +8,38 @@
 .time-control{
     width: 50%;
     display: flex;
+    color: white;
     
     input{
         width: 100%;
         padding: 1rem 0rem;
+        
+        
     }
+
+
+      input[type=range]:focus::-ms-fill-lower {
+        background: #3071a9;
+      }
+  
+
+
+
+ 
+      
+      
+     
+
+
+
+
+
+
+
+
+    
+    
+   
     p{
         padding: 1rem;
     }
@@ -24,6 +51,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    color: white;
     svg{
         cursor: pointer;
     }
