@@ -41,6 +41,7 @@ function App() {
         isPlaying={isPlaying}
         setIsPlaying={setIsPlaying}
         songs={songs}
+        setSongs={setSongs}
         
       />
        
